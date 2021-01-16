@@ -1,6 +1,6 @@
 # Understanding the Impact of Correlation within Pair-Bonds on Cormack-Jolly-Seber Models
 
-The `R` code used to conduct and analyze the simulation study from our article "Understanding the Impact of Correlation within Pair-Bonds on Cormack-Jolly-Seber Models" is available in the `Scripts` folder. For those unfamiliar with Git, a zip folder containing the files in this repository can be downloaded to your local machine by pressing the big green button labelled `Code` at the top of the page. 
+The `R` code used to conduct and analyze the simulation study from our article "Understanding the Impact of Correlation within Pair-Bonds on Cormack-Jolly-Seber Models" is available in the `Scripts` folder. For those unfamiliar with `Github` or `Git`, a Zip folder containing the files in this repository can be downloaded to your local machine by pressing the big green button labelled `Code` at the top of the page. 
 
 Details about our methods and approach can be found in the article which is available in the link below. 
 
@@ -22,7 +22,7 @@ Details about our methods and approach can be found in the article which is avai
     - grouping = R: Only recapture rates are modelled separately across sexes. 
     - grouping = N: Both survival and recapture is constant across sexes. 
   
-  - `lrt_plots()`, `chat_plots`, `qlrt_plots` produce comparison plots between a simpler standard CJS model and a more complex one for the likelihood ratio test, c-hat statistic, and quasi-likelihood ratio test (value of c-hat is needed). 
+  - `lrt_plots()`, `chat_plots()`, `qlrt_plots()` produce comparison plots between a simpler standard CJS model and a more complex one for the likelihood ratio test, c-hat statistic, and quasi-likelihood ratio test (value of c-hat is needed). 
   - `model_plots()` plots the estimate and confidence intervals of each run of the CJS model. For a given parameter (survival rate or recapture rate) and gender.
   
  - `21_PlotMSResults.R` can be used to produce the same plots as the ones available in the manuscript. Assuming the user has conducting the simulation studies from the paper using `11_RunSimulationStudy.R` and `12_Run_CompareChatEstimators.R`. The results are fairly stable across different runs of sufficient size so setting a seed is unnecessary. 
