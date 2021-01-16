@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/328504069.svg)](https://zenodo.org/badge/latestdoi/328504069)
+
 # Understanding the Impact of Correlation within Pair-Bonds on Cormack-Jolly-Seber Models
 
 The `R` code used to conduct and analyze the simulation study from our article "Understanding the Impact of Correlation within Pair-Bonds on Cormack-Jolly-Seber Models" is available in the `Scripts` folder. For those unfamiliar with `Github` or `Git`, a Zip folder containing the files in this repository can be downloaded to your local machine by pressing the big green button labelled `Code` at the top of the page. 
