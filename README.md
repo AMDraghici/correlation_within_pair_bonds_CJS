@@ -29,6 +29,6 @@ Details about our methods and approach can be found in the article which is avai
   
  - `21_PlotMSResults.R` can be used to produce the same plots as the ones available in the manuscript. Assuming the user has conducting the simulation studies from the paper using `11_RunSimulationStudy.R` and `12_Run_CompareChatEstimators.R`. The results are fairly stable across different runs of sufficient size so setting a seed is unnecessary. 
   
-Article Link: TBA 
+Article Link: https://doi.org/10.1002/ece3.7329 
 
-Reference: TBA
+Reference: Draghici, AM, Challenger, WO, Bonner, SJ. Understanding the impact of correlation within pair-bonds on Cormack–Jolly–Seber models. Ecol Evol. 2021; 11: 5966– 5984. https://doi.org/10.1002/ece3.7329
